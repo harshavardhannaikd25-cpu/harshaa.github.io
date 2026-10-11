@@ -711,3 +711,60 @@ h2 {
         transition-duration: 0.01ms !important;
     }
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #410474;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: white;
+    color: #46067e;
+    border: 3px solid #490687;
+    border-radius: 12px;
+    padding: 23px 30px;
+    text-align: center;
+}
+
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1;
+    padding: 20px;
+    background-color: #e9d5ff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
